@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <title>Shravan fashion.com</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="image">
+                        <img src="assets/logo.png.webp" alt="LOGO">
+                    </div>
+                </div>
+            <!-- MOBILE TAB NAVIGATION  -->
+                <div id="main" >
+                    <span style="font-size:30px;cursor:pointer;padding-right: 38px;" onclick="openNav()">&#9776; </span>
+                  </div>
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#">HOME
+                    </a>
+                    <a href="#"> 
+                        WOMEN’S
+                        </a>
+                    <a href="#">MEN'S</a>
+                    <a href="#">SHOP</a>
+                    <a href="#">PAGES</a>
+                    <a href="#">BLOG</a>
+                    <a href="#">CONTACT</a>
+                    <div class="login" >
+                        <h6 style="color: aliceblue;">LOGIN/REGISTER</h6>
+                        <i class="fa fa-search"></i>
+                        <i class="fa fa-heart"></i>
+                        <i class="fa fa-clipboard"></i>
+                    </div>
+                  </div>
+                   <!-- MOBILE TAB NAVIGATION  -->
+                <div class="col-lg-6 do">
+                    <nav class="nav">
+
+                        <ul class="nav-data">
+                            <li class="li"><a href="home.html">HOME</a></li>
+                            <li class="li"><a href="">WOMEN'S</a></li>
+                            <li class="li"><a href="">MEN'S</a></li>
+                            <li class="li"><a href="">PAGES</a></li>
+                            <li class="li"><a href="">BLOG</a></li>
+                            <li class="li"><a href="">CONTACT </a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-3 do">
+                    <div class="login">
+                        <h6>LOGIN/REGISTER</h6>
+                        <i class="fa fa-search"></i>
+                        <i class="fa fa-heart"></i>
+                        <i class="fa fa-clipboard"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="section1">
+        <!--                 
+        <div class="row">
+            <div class="col-lg-6" style="background-image:url('assets/3.jpg'); background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;">
+
+                <div class="main-text">
+                    <h1>Women's fashion</h1>
+                    <p> Sitamet, consectetur adipiscing elit, sed do eiusmod tempor incidid-unt labore edolore magna
+                        aliquapendisse ultrices gravida.</p>
+                    <a href="">SHOP NOW </a>
+                </div>
+            </div>
+            <div class="col-lg-6 ">
+                <div class="col-lg-3 cc">
+                    <div class="card1">
+
+                        <img src="assets/4.avif" alt="">
+                    </div>
+                    <div class="category1">
+                        <h4>MEN's fashion</h4>
+                        <p>358 items</p>
+                        <a href="">SHOP NOW</a>
+                    </div>
+                    <div class="card2">
+                        <img src="assets/3.jpg" alt="">
+
+                    </div>
+
+
+                </div>
+
+
+                <div class="col-lg-3 cc">
+                    <div class="card3">
+                        <img src="assets/5.avif" alt="">
+                    </div>
+                    <div class="category1">
+                        <h4>Cosmetics</h4>
+                        <p>159items</p>
+                        <a href="">SHOP NOW</a>
+                    </div>
+                    <div class="card4">
+                        <img src="assets/1.jpeg" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div> -->
+
+        <div class="row1">
+            <div class="right">
+                <div class="right-data">
+                    <h1>Women's fashion</h1>
+                    <p> Sitamet, consectetur adipiscing elit, sed do eiusmod tempor incidid-unt labore edolore magna
+                        aliquapendisse ultrices gravida.</p>
+                    <a href="">SHOP NOW </a>
+                </div>
+            </div>
+            <div class="left">
+
+                <div class="left1">
+                    <div class="left-data">
+                        <h4>Men’s fashion</h4>
+                        <p>358 items</p>
+                        <a href="">SHOP NOW </a>
+                    </div>
+                </div>
+                <div class="left2">
+                    <div class="left-data">
+                        <h4>Kid’s fashion</h4>
+                        <p> 273 items</p>
+                        <a href="">SHOP NOW </a>
+                    </div>
+                </div>
+
+
+                <div class="left3">
+                    <div class="left-data">
+                        <h4>Cosmetics</h4>
+                        <p> 159 items</p>
+                        <a href="">SHOP NOW </a>
+                    </div>
+                </div>
+                <div class="left3">
+                    <div class="left-data">
+                        <h4>Accessories</h4>
+                        <p>792 items</p>
+                        <a href="">SHOP NOW </a>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class=section2>
+
+        <div class="nav1">
+            <div class="heading">
+                <h4>NEW PRODUCT
+                    <hr style="width:200px;height:2px;background-color: red;">
+                </h4>
+
+                <ul class="heading2">
+                    <li>ALL</li>
+                    <li>Women's</li>
+                    <li>Men's</li>
+                    <li>Kid's</li>
+                    <li>Accessories</li>
+                    <li> Cosmetics</li>
+                </ul>
+
+            </div>
+
+            <div class="new-product-data">
+                <div class="new-product-data1">
+                    <div class="data1">
+                        <img src="assets//product-1.jpg" alt="">
+                        <div class="value">
+                            <h6>Buttons tweed blazer</h6>
+                            <div class="star">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                            <h5>$ 59.0</h5>
+                        </div>
+
+                    </div>
+                    <div class="data2">
+                        <div class="label2_new">OUT OF STOCK</div>
+                        <img src="assets/product-2.jpg" alt="">
+                        <div class="value">
+                            <h6>Buttons tweed blazer</h6>
+                            <div class="star">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                            <h5>$ 59.0</h5>
+                        </div>
+                    </div>
+                    <div class="data3">
+                        <img src="assets/product-3.jpg" alt="">
+                        <div class="value">
+                            <h6>Buttons tweed blazer</h6>
+                            <div class="star">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                            <h5>$ 59.0</h5>
+                        </div>
+                    </div>
+                    <div class="data4">
+                        <div class="label3_new">SALE</div>
+                        <img src="assets/product-4.jpg" alt="">
+                        <div class="value">
+                            <h6>Buttons tweed blazer</h6>
+                            <div class="star">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                            <h5>$ 59.0</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="new-product-data1">
+                    <div class="data1">
+                        <div class="label_new">NEW</div>
+                        <img src="assets//product-1.jpg" alt="">
+                        <div class="value">
+
+                            <h6>Buttons tweed blazer</h6>
+                            <div class="star">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                            <h5>$ 59.0</h5>
+                        </div>
+
+                    </div>
+                    <div class="data2">
+                        <div class="label2_new">OUT OF STOCK</div>
+                        <img src="assets/product-2.jpg" alt="">
+                        <div class="value">
+                            <h6>Flowy striped skirt</h6>
+                            <div class="star">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                            <h5>$ 59.0</h5>
+                        </div>
+                    </div>
+                    <div class="data3">
+                        <img src="assets/product-3.jpg" alt="">
+                        <div class="value">
+                            <h6>Buttons tweed blazer</h6>
+                            <div class="star">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                            <h5>$ 59.0</h5>
+                        </div>
+                    </div>
+                    <div class="data4">
+                        <img src="assets/product-4.jpg" alt="">
+                        <div class="value">
+                            <h6>Buttons tweed blazer</h6>
+                            <div class="star">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                            <h5>$ 59.0</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <div class="banner">
+
+
+        <!-- <div class="move">
+            <h1>hi i want to move</h1>
+        </div>
+        <div class="move">
+            <h1>hi i want to move</h1>
+        </div>
+        <div class="move">
+            <h1>hi i want to move</h1>
+        </div> -->
+
+    </div>
+
+    <section class="section3">
+        <div class="tsf">
+            <div class="hot-trend">
+                <h4>HOT TREND</h4>
+                <div class="list">
+                    <img src="assets/ht-1.jpg" alt="">
+                    <div class="list-data">
+                        <h6>Chain bucket bag</h6>
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <h5>$ 59.0</h5>
+                    </div>
+                </div>
+                <div class="list">
+                    <img src="assets/ht-1.jpg" alt="">
+                    <div class="list-data">
+                        <h6>Chain bucket bag</h6>
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <h5>$ 59.0</h5>
+                    </div>
+                </div>
+                <div class="list">
+                    <img src="assets/ht-1.jpg" alt="">
+                    <div class="list-data">
+                        <h6>Chain bucket bag</h6>
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <h5>$ 59.0</h5>
+                    </div>
+                </div>
+
+            </div>
+            <div class="best-seller">
+                <h4>BEST SELLER</h4>
+                <div class="list">
+                    <img src="assets/ht-1.jpg" alt="">
+                    <div class="list-data">
+                        <h6>Chain bucket bag</h6>
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <h5>$ 59.0</h5>
+                    </div>
+                </div>
+                <div class="list">
+                    <img src="assets/ht-1.jpg" alt="">
+                    <div class="list-data">
+                        <h6>Chain bucket bag</h6>
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <h5>$ 59.0</h5>
+                    </div>
+                </div>
+                <div class="list">
+                    <img src="assets/ht-1.jpg" alt="">
+                    <div class="list-data">
+                        <h6>Chain bucket bag</h6>
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <h5>$ 59.0</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="feature">
+                <h4>FEATURE</h4>
+                <div class="list">
+                    <img src="assets/ht-1.jpg" alt="">
+                    <div class="list-data">
+                        <h6>Chain bucket bag</h6>
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <h5>$ 59.0</h5>
+                    </div>
+                </div>
+                <div class="list">
+                    <img src="assets/ht-1.jpg" alt="">
+                    <div class="list-data">
+                        <h6>Chain bucket bag</h6>
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <h5>$ 59.0</h5>
+                    </div>
+                </div>
+                <div class="list">
+                    <img src="assets/ht-1.jpg" alt="">
+                    <div class="list-data">
+                        <h6>Chain bucket bag</h6>
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <h5>$ 59.0</h5>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section>
+        <div class="discount">
+            <img src="assets/discount.jpg" alt="">
+            <div class="discount_text">
+                <div class="discount_text_title">
+                    <span>Discount</span>
+                    <h2>Summer 2019</h2>
+                    <h5><span>SALE</span> 50%</h5>
+                </div>
+                <div class="discount_countdown">
+                    <div class="countdown_item">
+                        <span>29</span>
+                        <p>Day</p>
+                    </div>
+                    <div class="countdown_item">
+                        <span>07</span>
+                        <p>HOUR</p>
+                    </div>
+                    <div class="countdown_item">
+                        <span>36</span>
+                        <p>MIN</p>
+                    </div>
+                    <div class="countdown_item">
+                        <span>03</span>
+                        <p>SEC</p>
+                    </div>
+
+                </div>
+                <a href="">SHOP NOW</a>
+            </div>
+
+        </div>
+        <div class="service_items">
+            <div class="service_item">
+                <i class='fa fa-car' style='font-size:36px;color: red;'></i>
+                <div class="data">
+                    <h6>
+                        Free Shipping
+                    </h6>
+                    <p>For all oder over $99</p>
+                </div>
+            </div>
+            <div class="service_item">
+                <i class='fa fa-money' style='font-size:36px;color: red;'></i>
+                <div class="data">
+                    <h6>
+                        Money Back Guarantee
+                    </h6>
+                    <p>If good have Problems</p>
+                </div>
+            </div>
+            <div class="service_item">
+                <i class='fa fa-support' style='font-size:36px;color: red;'></i>
+                <div class="data">
+                    <h6>
+                        Online Support 24/7
+                    </h6>
+                    <p>Dedicated support</p>
+                </div>
+            </div>
+            <div class="service_item">
+                <i class='fa fa-headphones' style='font-size:36px;color: red;'></i>
+                <div class="data">
+                    <h6>
+                        Payment Secure
+                    </h6>
+                    <p>100% secure payment</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="gallery">
+            <div class="gallerry_images" style="background-image: url('/assets/insta-1.jpg.webp');min-height:320px;">
+            </div>
+            <div class="gallerry_images" style="background-image: url('/assets/insta-2.jpg.webp');min-height:320px;">
+            </div>
+            <div class="gallerry_images" style="background-image: url('/assets/insta-3.jpg.webp');min-height:320px;">
+            </div>
+            <div class="gallerry_images" style="background-image: url('/assets/insta-4.jpg.webp');min-height:320px;">
+            </div>
+            <div class="gallerry_images" style="background-image: url('/assets/insta-5.jpg.webp');min-height:320px;">
+            </div>
+            <div class="gallerry_images" style="background-image: url('/assets/insta-6.jpg.webp');min-height:320px;">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="footer">
+            <div class="div-f1">
+                <img src="assets/logo.png.webp" alt="">
+                <p>Lorem ipsum dolor sit amet, <br>
+                    consectetur adipiscing elit, sed do eiusmod <br>tempor incididunt cilisis.</p>
+                <div class="footer-payment">
+                    <img src="assets/payment-1.png" alt="">
+                    <img src="assets/payment-2.png" alt="">
+                    <img src="assets/payment-3.png" alt="">
+                    <img src="assets/payment-4.png" alt="">
+                    <img src="assets/payment-5.png" alt="">
+                </div>
+            </div>
+            <div class="div-f2">
+                <h6>QUICK LINKS</h6>
+                <ul>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="div-f2">
+                <h6>ACCOUNT</h6>
+                <ul>
+                    <li><a href="">My Account</a></li>
+                    <li><a href="">Orders Tracking</a></li>
+                    <li><a href="">Checkout</a></li>
+                    <li><a href="">Wishlist</a></li>
+                </ul>
+            </div>
+            <div class="div-f4">
+                <h6>NEWSLETTER</h6>
+                <form action="">
+                    <input type="text" placeholder="Email">
+                    <button type="submit">Subscribe</button>
+                </form>
+                <div class="footer-logo">
+                    <a href="">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa fa-youtube"></i>
+
+                    </a>
+                    <a href="">
+                        <i class="fa fa-instagram"></i>
+
+                    </a>
+                    <a href="">
+                        <i class="fa fa-pinterest"></i>
+
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <hr>
+        <div class="Copyright">
+
+            <p>Copyright © 2024 All rights reserved | This template is made with by Colorlib</p>
+        </div>
+    </section>
+    <div>
+
+    </div>
+</body>
+
+</html>
